@@ -2,12 +2,13 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import Section from "elements/Section";
+import Button from "elements/Button";
 import Card from "elements/Card";
 import Lists from "elements/Lists";
-
 import Header from "parts/Header";
 import Clients from "parts/Clients";
 import Feature from "parts/Feature";
+
 import HeroImage from "assets/images/hero-image.png";
 import FeatureTile01 from "assets/images/feature-tile-icon-01.svg";
 import FeatureTile02 from "assets/images/feature-tile-icon-02.svg";
@@ -173,9 +174,9 @@ export default function Homepage() {
                       </div>
                     </div>
                     <div class="pricing-item-cta mb-8">
-                      <a class="button button-primary button-block" href="#">
+                      <Button isPrimary isBlock>
                         Start free trial
-                      </a>
+                      </Button>
                     </div>
                   </Card>
                 ))}
